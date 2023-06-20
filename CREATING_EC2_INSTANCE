@@ -1,0 +1,12 @@
+DAY 1 HOW TO CREATE EC2 INSTANCE IN AWS ?
+
+LOGIN TO AWS CONSLOE
+= CLICK ON EC2 DASHBOARD
+= CLICK ON LUNCH INSTANCE
+= NAME : you can give any name
+= OS :  select as per your requirement (ubuntu)
+= vpc : select by default
+= subnet : select by default
+= security : select by default
+= Network : Enable auto asign public ip
+= SELECT NO OF INSTANCE: select 1 or 2. 
