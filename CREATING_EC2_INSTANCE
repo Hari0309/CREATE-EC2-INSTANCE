@@ -1,12 +1,30 @@
-DAY 1 HOW TO CREATE EC2 INSTANCE IN AWS ?
+DAY 1 HOW TO CREATE EC2 INSTANCE IN AWS AND LOGIN TO PUTTY.
 
-LOGIN TO AWS CONSLOE
+# LOGIN TO AWS CONSLOE
 = CLICK ON EC2 DASHBOARD
 = CLICK ON LUNCH INSTANCE
 = NAME : you can give any name
 = OS :  select as per your requirement (ubuntu)
+= INSTANCE TYPE: select free tier 
+= CREATE KEY PAIR: Create new keypair, any name 
+= SELECT PPK : for putty login select ppk
+= CREATE KEY PAIR
+= Network : Click on edit  
 = vpc : select by default
 = subnet : select by default
-= security : select by default
-= Network : Enable auto asign public ip
-= SELECT NO OF INSTANCE: select 1 or 2. 
+= security : Create security group 
+= Enable auto asign public ip
+= SELECT NO OF INSTANCE: select 1 or 2.
+= CLICK ON LUNCH INSTANCE
+# OUR INSTANCE IS READY NOW WE HAVE TO OPEN THE TERMINAL.
+= OPEN YOUR PUTTY
+= HOSTNAME : enter the public ip of your instance
+= click on (+) sign button near SSH
+= click on auth
+= click on browse
+= SELECT YOUR KEYFILE: you created before ( check line no.9 for reference)
+= cLICK ON OPEN
+= CLICK ON ACCEPT 
+# NOW YOUR TERMINAL IS READY
+= login as : ec2user
+************ we sucessfully created ec2 and login to terminal using putty**********
